@@ -1,0 +1,65 @@
+
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url('Roboto.ttf'); 
+  }
+
+@font-face { 
+  font-family: 'AR'; 
+  src: url('Archistico.ttf'); 
+  }
+
+#buttons {
+position: relative;	
+}
+.refresh {
+    width:auto;
+    padding:8px;
+    text-align:center;
+    display: inline-block;
+    float:center;
+    margin:0 8px 0 0;
+    border-radius:12px;
+    font-size: 60px;
+    width:100%;
+	height:128px;
+    color:#FFFFFF;
+    font-family:Roboto;
+	background-color:#48D1CC;
+	
+}
+.previous {
+    text-align:center;
+    float:left;
+    border-radius:12px;
+    font-size: 20px;
+    width:49%;
+	height:128px;
+    color:#FFFFFF;
+    font-family:Roboto;
+	background-color:#424949;
+	
+}
+.next {
+    text-align:center;
+    float:right;
+    border-radius:12px;
+    font-size: 20px;
+    width:50%;
+	height:128px;
+    color:#FFFFFF;
+    font-family:Roboto;
+	background-color:  #424949;
+	
+	
+}
+.chan {
+      font-size:60px;
+	  text-align:center;
+	   font-family: 'AR';  
+	  }
+.p{
+	  font-size:30px;
+	  font-style:italic;
+	  font-family:Roboto;
+	  }
