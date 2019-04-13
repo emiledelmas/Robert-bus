@@ -1,5 +1,5 @@
 function go() {
-fetch('https://opendata.stif.info/service/api-stif-horaires/stop_areas/stop_area%3A0%3ASA%3A60%3A340/lines/line%3A0%3A016096001%3A14/departures?count=5&apikey=810bbc8b4a96f25b28f1f45112762a585233e89c5f0eb9bb0bf1f580')
+fetch('https://opendata.stif.info/service/api-stif-horaires/stop_areas/stop_area%3A0%3ASA%3A60%3A340/lines/line%3A0%3A016096001%3A14/departures?count=5&apikey=')
   .then(response => {
     return response.json()
   })
@@ -81,7 +81,7 @@ console.log("no Internet");
   })
 }
 function back() {
-fetch('https://opendata.stif.info/service/api-stif-horaires/stop_areas/stop_area%3A0%3ASA%3A60%3A334/departures?count=5&apikey=810bbc8b4a96f25b28f1f45112762a585233e89c5f0eb9bb0bf1f580')
+fetch('https://opendata.stif.info/service/api-stif-horaires/stop_areas/stop_area%3A0%3ASA%3A60%3A334/departures?count=5&apikey=')
   .then(response => {
     return response.json()
   })
